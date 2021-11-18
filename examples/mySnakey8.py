@@ -41,8 +41,14 @@
 # 1. Add more/different food
 # 2. Add more sprites for snake segments
 
+import sys
 import random
-from Tkinter import *
+if sys.version_info[0] == 3:
+    # for Python3
+    from tkinter import *   ## notice lowercase 't' in tkinter here
+else:
+    # for Python2
+    from Tkinter import *   ## notice capitalized T in Tkinter
 
 # Global variables
 H = 400

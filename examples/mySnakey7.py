@@ -43,7 +43,11 @@
 # 3. Add more sprites for snake
 
 import random
-from Tkinter import *
+try:
+    from Tkinter import *
+except:
+    # Python3 support
+    from tkinter import *
 
 # Global variables
 H = 400

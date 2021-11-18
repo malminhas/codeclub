@@ -57,7 +57,11 @@
 # 6. MAYBE: Add AI support
 
 import random
-from Tkinter import *
+try:
+    from Tkinter import *
+except:
+    # Python3 support
+    from tkinter import *
 
 # Global variables
 H = 400

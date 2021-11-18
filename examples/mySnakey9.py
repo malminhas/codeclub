@@ -33,7 +33,8 @@
 # pressing forward or reverse!
 # 8. game loop - basic loop involves: i) setting timer, ii) updating
 # all object positions on timeout, iii) redrawing full scene.
-#
+# 9. yellow background and a few other tweaks and changes.
+# 
 # Good luck with Snakey!
 #
 # Things you could do!
@@ -43,9 +44,10 @@
 
 import random
 try:
-	from Tkinter import *
+    from Tkinter import *
 except:
-	from tkinter import *
+    # Python3 support
+    from tkinter import *
 
 # Global variables
 H = 400

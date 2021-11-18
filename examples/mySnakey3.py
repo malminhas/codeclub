@@ -34,7 +34,11 @@
 
 import time
 import random
-from Tkinter import *
+try:
+    from Tkinter import *
+except:
+    # Python3 support
+    from tkinter import *
 
 # 1. Global variables:
 H = 400
