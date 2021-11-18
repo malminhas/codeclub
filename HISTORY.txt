@@ -1,0 +1,36 @@
+mySnakey1, May 2015:
+- Initial version drawing on code in myEtchASketch
+- Basic snake movement on mainloop timer in canvas
+- Snake can be moved NESW on keypress
+
+mySnakey2, May 2015:
+- Addition of basic collision detection with itself and walls
+- Collisions detected but do not terminate the game.
+
+mySnakey3, May 2015:
+- Addition of food
+- Collisions still detected but do not terminate game.
+
+mySnakey4, June 2015:
+- Addition of counter and Game Over
+- Game now over on collision with wall
+
+mySnakey5, June 2015:
+- Addition of text + colour with counters
+- Addition of speed slider at bottom of canvas
+- Addition of pause support
+
+mySnakey6, June 2015:
+- Addition of strawberry gif sprite for food
+- Addition of support to prevent the snake from going back on itself
+
+mySnakey7, June 2015:
+- Addition of snake head gif sprites
+- Rewrote game logic to update objects then redraw entire scene
+- That now happens each time update_timer is called
+
+mySnakey8, July 2015:
+- Addition of monster support
+- Changed background colour to orange
+- Each time you hit a monster your score decrements
+- If your score goes below zero you die.
